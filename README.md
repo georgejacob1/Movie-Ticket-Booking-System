@@ -8,24 +8,11 @@ available for the show, show timings and ticket bookings. Tickets can also be
 cancelled if needed. Tickets can be purchased online at any time of the day or
 night from anywhere on the planet.
 
-The project has only two modules :
-
-        1. Admin
-        2. User
-### Admin
-- Log in, Log out
-- Add, Delete, Update Movie details(Movie name, Genre, Ticket fare, etc.,)
-- Create shows for the movies (Show timings and date)
-- Add theatre(Theatre name, location, No. of seats)
-
-### User
-- Search for movies
-- Check movie’s show availability
-- Reserve tickets
-- Pay for the tickets & generate ticket
 ## Technologies using
 
-**Front-end:** HTML, CSS
+**Front-end:**  https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
+                https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 
-**Back-end:** PHP, MySQL
+**Back-end:**   https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
+                https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
 
