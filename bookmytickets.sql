@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2022 at 06:50 PM
+-- Generation Time: Oct 17, 2022 at 08:49 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -41,7 +41,6 @@ CREATE TABLE `tbl_login` (
 
 INSERT INTO `tbl_login` (`login_id`, `email`, `password`, `otp_code`, `type_id`) VALUES
 (1, 'admin@admin.com', 'admin123', '0', 1),
-(2, 'alenshaju159@gmail.com', 'alenshaju', '0', 2),
 (4, 'alanshijoatkl@gmail.com', 'qwerty123', '0', 2),
 (8, 'alexreji777@gmail.com', '1234', '0', 2);
 
@@ -65,9 +64,9 @@ CREATE TABLE `tbl_users` (
 --
 
 INSERT INTO `tbl_users` (`user_id`, `user_fname`, `user_lname`, `user_phno`, `user_status`, `login_id`) VALUES
-(1, 'alen', 'shaju', '7559819300', 'active', 2),
-(2, 'alan', 'shijo', '8281187831', 'deactive', 4),
-(6, 'Alex', 'Reji', '7415236980', 'active', 8);
+(1, 'admin', 'admin', '9999999999', 'active', 1),
+(2, 'alan', 'shijo', '8281187831', 'active', 4),
+(6, 'Alex', 'Reji', '7415236980', 'deactive', 8);
 
 -- --------------------------------------------------------
 
