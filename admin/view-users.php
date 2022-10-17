@@ -144,8 +144,8 @@ include '../db_conn.php';
               <td data-label="Phone number"><?php echo $data['user_phno']; ?></td>
               <td data-label="Status"><?php echo $data['user_status']; ?></td>
               <td data-label="Action">
-                <button class="small green button"> Activate </button><br><br>
-                <button class="small red button">Deactive</button>
+              <a class="small green button" style="padding-right: 16%;" href="activate.php?actid=<?php echo $data["user_id"]; ?>">Activate</a><br><br>
+              <a class="small red button" href="deactivate.php?deactid=<?php echo $data["user_id"]; ?>">Deactivate</a>
               </td>
             </tr> <?php
                   $i++;
